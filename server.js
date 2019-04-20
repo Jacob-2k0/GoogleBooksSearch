@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const routes = require("./routes");
 
 // Initializing App
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3001;
 const app = express();
 
 // Serve up static assets
@@ -21,7 +21,7 @@ app.use(routes);
 
 // Connecting to DB
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/googlebooks", {
+  process.env.MONGODB_URI || "mongodb://user:password1@ds145356.mlab.com:45356/heroku_z1fsbcgl", {
     useCreateIndex: true,  
     useNewUrlParser: true
   });
