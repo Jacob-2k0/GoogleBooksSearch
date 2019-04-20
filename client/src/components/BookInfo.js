@@ -34,6 +34,6 @@ function Book({ title, subtitle, authors, link, description, image, Button }) {
             </Row>
         </ListBook>
     );
-}
+} 
 
 export default Book;
