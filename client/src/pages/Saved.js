@@ -3,7 +3,7 @@ import Jumbotron from "../components/Jumbotron";
 import Card from "../components/Card";
 import Book from "../components/BookInfo";
 //import API from "../utils/api.js";
-import API from "../utils/api.js";
+import { API } from "../utils/api.js";
 import { Col, Row, Container } from "../components/Grid";
 import { List } from "../components/BookList";
 

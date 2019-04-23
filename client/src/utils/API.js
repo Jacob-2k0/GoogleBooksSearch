@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export default {
+export const API = {
     // Getting searched book title
     getBooks : function (q) {
         return axios.get("/api/google", { params: { q : "title:" + q }});
