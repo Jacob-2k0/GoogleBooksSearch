@@ -5,7 +5,7 @@ import Card from "../components/Card";
 import SearchForm from "../components/SearchForm";
 import Book from "../components/BookInfo";
 import { List } from "../components/BookList";
-import API from "../utils/API";
+import API from "../utils/api";
 import "../App.css";
 
 class Main extends Component {
